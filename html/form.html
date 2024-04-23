@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<meta charset="UTF-8">
+ 	<title>당신을 설명해주세요.</title>
+ </head>
+ <body>
+	<form>
+		<h3>질문 1. 당신은 누구입니까?</h3>
+		<hr>
+ 		<input type='text' placeholder='성(선택사항)'><br>
+ 		<input type='text' placeholder='이름'><br>
+		<hr>
+		<h3>질문 2. 당신의 성별은 무엇입니까?</h3>
+ 		<input type='checkbox'>남자<br>
+ 		<input type='checkbox'>여자<br>
+ 		<input type='radio' name='sex' value='남자'>남자
+ 		<input type='radio' name='sex' value='여자'>여자
+		<hr>
+		<h3>질문 3. 당신의 생일은 언제입니까?</h3>
+ 		시작일: <input type='date'><br>
+ 		종료일: <input type='date'><br>
+		<h3>질문 4. 당신의 키는 어떻게 되나요?</h3>
+		<input type="range" name="range" min="0" max="190"/>
+ 		<button> 확인 </button>
+		<hr>
+		<input type="reset" value="초기화">
+		<input type="submit" value="제출">
+	</form>
+</body>
+</html>
